@@ -1,0 +1,22 @@
+Body {
+    background-image: url(/img/imagem\ fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    color: black;
+}
+.events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.Home{
+    color: black;
+    text-align: center;
+    justify-content:baseline;
+}
+.about{
+    color:rgb(from color 255, 0, 0);
+}

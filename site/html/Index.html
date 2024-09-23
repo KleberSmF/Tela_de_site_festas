@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Style2.css">
+</head>
+<body>
+    <form class="formulario">
+        <fieldset>
+    <legend>Dados Pessoais</legend>
+    Nome: <input type="text"><br>
+    Endereço: <input type="email"><br>
+    Cidade: <input type="text"><br>
+    <label for="estado">Estado:</label>
+    <select id="estado" name="estado">
+    <option value="">Selecione</option>
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+</select>  
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <a>Natureza do cargo</a><br>
+        <input type="radio">
+        <label>Gerencia</label>
+        <input type="radio">
+        <label>Financeiro</label>
+        <input type="radio">
+        <label>Recpção</label>
+        <input type="radio">
+        <label>Administrativo</label>
+        <input type="radio">
+        <label>Jurídico</label><br>
+        <br>
+        <a>Área de interesse</a><br>
+        <input type="checkbox">
+        <label>Computação</label>
+        <input type="checkbox">
+        <label>Biologia</label>
+        <input type="checkbox">
+        <label>Meio Ambiente</label>
+        <input type="checkbox">
+        <label>Engenharia</label>
+        <input type="checkbox">
+        <label>História</label><br>
+        Mini-currículo: <textarea id="mensagem" name="Mini-currículo" rows="5" cols="60"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar">
+        <button type="button">Limpar</button><br>
+    </form>
+</body>
+</html>
